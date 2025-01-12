@@ -1,0 +1,24 @@
+Create Database EmployeeManagementSystem;
+
+CREATE TABLE users
+(
+id Int Primary key identity(1,1),
+username varchar(MAX) Null,
+date_register Date Null
+);
+
+CREATE TABLE employees
+(
+id Int Primary key identity(1,1),
+employee_id varchar(MAX) Null,
+full_name varchar(MAX) Null,
+gender varchar(MAX) Null,
+contact_number varchar(MAX) Null,
+position varchar(MAX) Null,
+image varchar(MAX) Null,
+salary int Null,
+insert_date Date Null,
+update_date Date Null,
+delete_date Date Null,
+status varchar(MAX) Null,
+);
